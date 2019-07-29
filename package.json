@@ -9,7 +9,7 @@
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "react-scripts": "3.0.1",
-    "cypress": "3.4.0"
+    "cypress": "3.4.1"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
