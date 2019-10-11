@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.15.0",
+    "enzyme-adapter-react-16": "1.15.1",
     "react-scripts": "3.2.0",
     "cypress": "3.4.1"
   },
