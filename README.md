@@ -9,6 +9,8 @@ A working React+Redux app to easily (but **MANUALLY**) verify if the React devto
 [![Open Source
 Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
+*Tested on Cypress 4 and Firefox too!*
+
 ### Why?
 
 Cypress is an amazing tool and it can be leveraged even as a development tool, not only as a testing tool (read the [Use your testing tool as your primary development tool](https://github.com/NoriSte/ui-testing-best-practices/blob/master/sections/generic-best-practices/use-your-testing-tool-as-your-primary-development-tool.md) article).
