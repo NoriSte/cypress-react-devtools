@@ -23,6 +23,13 @@ To do that, the existing devtool must work with the Cypress-controlled browser t
 - in the Cypress UI, choose a Chrome instance with the React and Redux devtools installed (see the [Chrome instance screenshot](#chrome-instance-screenshot))
 - open the devtools and check that they work (see the [Working devtool screenshot](#working-devtools-screenshot))
 
+Please note that, in order to have the React DevTools working into Cypress, the key is the following code, put into the [index.html page](https://github.com/NoriSte/cypress-react-devtools/blob/master/public/index.html#L8.L10).
+```js
+if (window.Cypress) {
+  window["__REACT_DEVTOOLS_GLOBAL_HOOK__"] = window.parent["__REACT_DEVTOOLS_GLOBAL_HOOK__"];
+}
+```
+
 ### Screenshots
 #### Chrome instance screenshot
 <img src="assets/chrome-instance.png" alt="Chrome instance" />
